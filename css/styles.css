@@ -1,0 +1,21 @@
+/*================
+Universal styles
+=================*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*================
+Element Selectors
+=================*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F75940;
+    color: white;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+}
