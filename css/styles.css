@@ -30,3 +30,11 @@ h1 {
 h2 {
     font-weight: 300;
 }
+
+/*================
+Class Selectors
+=================*/
+
+.page-wrapper {
+    background-color: #334252;
+}
