@@ -12,7 +12,7 @@ Element Selectors
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #F75940;
+    background-color: #334252;
     color: white;
 }
 
@@ -25,20 +25,36 @@ h4 {
 
 h1 {
     font-weight: 200;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 h2 {
     font-weight: 300;
 }
 
+header {
+    background-color: #F75940;
+}
+
 /*================
 Class Selectors
 =================*/
 
-.page-wrapper {
-    background-color: #334252;
+.desktop-nav {
+    display: none;
 }
 
-.main-nav {
-    display: none;
+.header-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
 }
