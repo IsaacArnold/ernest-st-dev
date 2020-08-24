@@ -38,3 +38,7 @@ Class Selectors
 .page-wrapper {
     background-color: #334252;
 }
+
+.main-nav {
+    display: none;
+}
