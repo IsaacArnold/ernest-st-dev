@@ -35,6 +35,17 @@ h2 {
     margin-bottom: -20px;
 }
 
+h4 {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+h4 + p {
+    width: 60%;
+    font-size: .8em;
+}
+
 header,
 footer {
     background-color: #F75940;
@@ -65,7 +76,7 @@ Class Selectors
 .content {  
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 90%;
     margin: auto; 
 }
@@ -78,11 +89,27 @@ Class Selectors
 
 .separator {
     border-top: 2px solid #3DC7BE;
-    width: 75%;
+    width: 85%;
     margin: auto;
     margin-top: 50px;
 }
 
 .services {
-    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.services-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.services-row p {
+    align-self: flex-end;
 }
