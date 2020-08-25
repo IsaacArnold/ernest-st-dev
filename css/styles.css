@@ -33,6 +33,7 @@ h2 {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: -20px;
+    width: 20ch;
 }
 
 h4 {
@@ -76,7 +77,6 @@ Class Selectors
 .content {  
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 90%;
     margin: auto; 
 }
@@ -85,6 +85,7 @@ Class Selectors
     width: 200px;
     height: 150px;
     align-self: flex-end;
+    margin-top: 20px;
 }
 
 .separator {
