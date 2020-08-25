@@ -31,6 +31,8 @@ h1 {
 
 h2 {
     font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: -20px;
 }
 
 header,
@@ -60,7 +62,27 @@ Class Selectors
     align-items: center;
 }
 
-.content {
+.content {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 90%;
+    margin: auto; 
+}
+
+.ideas {
+    width: 200px;
+    height: 150px;
+    align-self: flex-end;
+}
+
+.separator {
+    border-top: 2px solid #3DC7BE;
+    width: 75%;
     margin: auto;
+    margin-top: 50px;
+}
+
+.services {
+    align-items: flex-end;
 }
